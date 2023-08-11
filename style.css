@@ -1,0 +1,15 @@
+@media(max-width:1000px){
+    img{
+        width: 80%;
+    }
+    #home{
+        background-image: url(ecolocaonomedaimagem.jpg);
+        background-size: cover;
+        font-size: 50%;
+    }
+}
+
+body{
+    text-align: center;
+}
+
