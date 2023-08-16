@@ -1,3 +1,24 @@
+body{
+   text-align: center;
+}
+
+
+/*Para a imagem do carousel ficar larga*/
+.content img{
+    object-fit: cover;
+    width: 100%;
+    background-color: black;
+}
+
+section{
+    margin:5%;
+}
+
+.espacamento{
+    margin: 2%;
+}
+
+/*para editar para o site em celulares*/
 @media(max-width:1000px){
     img{
         width: 80%;
@@ -8,8 +29,3 @@
         font-size: 50%;
     }
 }
-
-body{
-    text-align: center;
-}
-
