@@ -28,3 +28,29 @@ section{
         font-size: 50%;
     }
 }
+
+ .titulo{
+    font-family: 'Oswald', sans-serif;
+ }
+
+ ul{
+    text-align: justify;
+ }
+
+.imagemcomtexto {
+    position: relative;
+    text-align: center;
+  }
+
+  .image {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .text {
+    position: absolute;
+    top: 50%; /* Posiciona o texto no centro verticalmente */
+    left: 50%; /* Posiciona o texto no centro horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza o texto exatamente no meio */
+    font-size: 24px;
+  }
