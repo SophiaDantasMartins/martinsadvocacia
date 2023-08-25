@@ -54,3 +54,9 @@ section{
     transform: translate(-50%, -50%); /* Centraliza o texto exatamente no meio */
     font-size: 24px;
   }
+
+  @media (max-width:778px) {
+    body {
+        background-color: cadetblue;
+    }
+  }
