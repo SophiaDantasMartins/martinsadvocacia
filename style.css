@@ -40,6 +40,11 @@ section{
 .imagemcomtexto {
     position: relative;
     text-align: center;
+    
+  }
+
+  .imagemcomtexto img{
+    width: 100%;
   }
 
   .image {
@@ -50,13 +55,27 @@ section{
   .text {
     position: absolute;
     top: 50%; /* Posiciona o texto no centro verticalmente */
-    left: 50%; /* Posiciona o texto no centro horizontalmente */
+    left: 20%; /* Posiciona o texto no centro horizontalmente */
     transform: translate(-50%, -50%); /* Centraliza o texto exatamente no meio */
     font-size: 24px;
+    color: white;
   }
 
   @media (max-width:778px) {
     body {
         background-color: cadetblue;
     }
+  }
+
+  .imagehome{
+    filter: grayscale(100%);
+    
+  }
+
+  .colornavbar{
+    background: rgb(255,0,0);
+background: -moz-linear-gradient(180deg, rgba(255,0,0,1) 25%, rgba(255,255,255,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(255,0,0,1) 25%, rgba(255,255,255,1) 100%);
+background: linear-gradient(180deg, rgba(255,0,0,1) 25%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#ffffff",GradientType=1);
   }
