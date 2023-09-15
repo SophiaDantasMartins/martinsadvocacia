@@ -1,81 +1,197 @@
-body{
-   text-align: center;
+body {
+  text-align: center;
 }
 
 
 /*Para a imagem do carousel ficar larga*/
-.content img{
-    object-fit: cover;
-    width: 100%;
+.content img {
+  object-fit: cover;
+  width: 100%;
 }
 
-section{
-    margin:5%;
+section {
+  margin: 5%;
 }
 
-.espacamento{
-    margin: 2%;
+.espacamento {
+  margin: 2%;
 }
+
+
+main {
+  margin-top: 12%;
+}
+
+/*colocar o section para não tampar o início da seção*/
 
 /*para editar para o site em celulares*/
-@media(max-width:1000px){
-    img{
-        width: 80%;
-    }
-    #home{
-        background-image: url(ecolocaonomedaimagem.jpg);
-        background-size: cover;
-        font-size: 50%;
-    }
+@media(max-width:1000px) {
+  img {
+    width: 80%;
+  }
+
+  #home {
+    background-image: url(ecolocaonomedaimagem.jpg);
+    background-size: cover;
+    font-size: 50%;
+  }
 }
 
- .titulo{
-    font-family: 'Oswald', sans-serif;
- }
+.titulo {
+  font-family: 'Oswald', sans-serif;
+}
 
- ul{
-    text-align: justify;
- }
+ul {
+  text-align: justify;
+}
 
 .imagemcomtexto {
-    position: relative;
-    text-align: center;
-    
-  }
+  position: relative;
+  text-align: center;
 
-  .imagemcomtexto img{
-    width: 100%;
-  }
+}
 
-  .image {
-    object-fit: cover;
-    width: 100%;
-  }
+.imagemcomtexto img {
+  width: 100%;
+}
 
-  .text {
-    position: absolute;
-    top: 50%; /* Posiciona o texto no centro verticalmente */
-    left: 20%; /* Posiciona o texto no centro horizontalmente */
-    transform: translate(-50%, -50%); /* Centraliza o texto exatamente no meio */
-    font-size: 24px;
-    color: white;
-  }
+.image {
+  object-fit: cover;
+  width: 100%;
+}
 
-  @media (max-width:778px) {
-    body {
-        background-color: cadetblue;
-    }
-  }
+.text {
+  position: absolute;
+  top: 50%;
+  /* Posiciona o texto no centro verticalmente */
+  left: 20%;
+  /* Posiciona o texto no centro horizontalmente */
+  transform: translate(-50%, -50%);
+  /* Centraliza o texto exatamente no meio */
+  font-size: 24px;
+  color: white;
+}
 
-  .imagehome{
-    filter: grayscale(100%);
-    
+@media (max-width:778px) {
+  body {
+    background-color: cadetblue;
   }
+}
 
-  .colornavbar{
-    background: rgb(255,0,0);
-background: -moz-linear-gradient(180deg, rgba(255,0,0,1) 25%, rgba(255,255,255,1) 100%);
-background: -webkit-linear-gradient(180deg, rgba(255,0,0,1) 25%, rgba(255,255,255,1) 100%);
-background: linear-gradient(180deg, rgba(255,0,0,1) 25%, rgba(255,255,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#ffffff",GradientType=1);
-  }
+.imagehome {
+  filter: grayscale(100%);
+
+}
+
+.colornavbar {
+  background: rgb(255, 0, 0);
+  background: -moz-linear-gradient(180deg, rgba(255, 0, 0, 1) 25%, rgba(255, 255, 255, 1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(255, 0, 0, 1) 25%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(180deg, rgba(255, 0, 0, 1) 25%, rgba(255, 255, 255, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000", endColorstr="#ffffff", GradientType=1);
+}
+
+footer {
+  background: rgb(255, 0, 0);
+  background: -moz-linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 63%, rgba(255, 255, 255, 1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 63%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 63%, rgba(255, 255, 255, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000", endColorstr="#ffffff", GradientType=1);
+}
+
+.rodape {
+  bottom: 0;
+  padding-top: 3%;
+  padding-bottom: 4%;
+  line-height: 250%;
+
+}
+
+/*Estilo do rodapé*/
+.informationFooter {
+  font-size: 190%;
+  color: #c18824;
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+
+.telefones,
+.mail {
+  color: white;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+.telefones:hover {
+  color: #c18824;
+  text-decoration: none;
+  font-size: 170%;
+
+}
+
+.mail:hover {
+  color: #c18824;
+  text-decoration: none;
+  font-size: 155%;
+}
+
+.logos1,
+.logos2,
+.logos3,
+.logos4 {
+  font-size: 210%;
+}
+
+.logos1:hover,
+.logos2:hover,
+.logos3:hover,
+.logos4:hover {
+  font-size: 180%;
+}
+
+.btn_whats {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+
+.btn_help {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  left: 40px;
+  background-color: #c18824;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+  display: none;
+}
+
+.btn_precisaAjuda {
+  position: fixed;
+  width: 200px;
+  padding: 10px;
+  top: 20px;
+  right: 40px;
+  background-color: #c18824;
+  color: #FFF;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 16px;
+  z-index: 1000;
+  text-decoration: none;
+  line-height: 1.5;
+}
