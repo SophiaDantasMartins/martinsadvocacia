@@ -1,3 +1,14 @@
+/*Missão organizar o CSS*/
+
+/*header*/
+.colornavbar {
+  background: rgb(255, 0, 0);
+  background: -moz-linear-gradient(180deg, rgba(255, 0, 0, 1) 25%, rgba(255, 255, 255, 1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(255, 0, 0, 1) 25%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(180deg, rgba(255, 0, 0, 1) 25%, rgba(255, 255, 255, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000", endColorstr="#ffffff", GradientType=1);
+}
+
 body {
   text-align: center;
 }
@@ -17,6 +28,12 @@ section {
   margin: 2%;
 }
 
+.explanacao{
+  font-family: 'Barlow', sans-serif;
+  text-align: justify;
+  font-size: larger;
+  line-height: 2;
+}
 
 main {
   margin-top: 12%;
@@ -24,21 +41,9 @@ main {
 
 /*colocar o section para não tampar o início da seção*/
 
-/*para editar para o site em celulares*/
-@media(max-width:1000px) {
-  img {
-    width: 80%;
-  }
-
-  #home {
-    background-image: url(ecolocaonomedaimagem.jpg);
-    background-size: cover;
-    font-size: 50%;
-  }
-}
-
 .titulo {
   font-family: 'Oswald', sans-serif;
+  font-size: 50px;
 }
 
 ul {
@@ -72,24 +77,13 @@ ul {
   color: white;
 }
 
-@media (max-width:778px) {
-  body {
-    background-color: cadetblue;
-  }
-}
 
 .imagehome {
   filter: grayscale(100%);
 
 }
 
-.colornavbar {
-  background: rgb(255, 0, 0);
-  background: -moz-linear-gradient(180deg, rgba(255, 0, 0, 1) 25%, rgba(255, 255, 255, 1) 100%);
-  background: -webkit-linear-gradient(180deg, rgba(255, 0, 0, 1) 25%, rgba(255, 255, 255, 1) 100%);
-  background: linear-gradient(180deg, rgba(255, 0, 0, 1) 25%, rgba(255, 255, 255, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000", endColorstr="#ffffff", GradientType=1);
-}
+
 
 footer {
   background: rgb(255, 0, 0);
@@ -99,55 +93,10 @@ footer {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000", endColorstr="#ffffff", GradientType=1);
 }
 
-.footer {
-  bottom: 0;
-  padding-top: 3%;
-  padding-bottom: 4%;
-  line-height: 250%;
-
-}
-
-/*Estilo do rodapé*/
-.informationFooter {
-  font-size: 190%;
-  color: #c18824;
-  font-family: 'Ysabeau Office', sans-serif;
-}
 
 
-.telefones,
-.mail {
-  color: white;
-  text-decoration: none;
-  font-size: 150%;
-}
 
-.telefones:hover {
-  color: #c18824;
-  text-decoration: none;
-  font-size: 170%;
 
-}
-
-.mail:hover {
-  color: #c18824;
-  text-decoration: none;
-  font-size: 155%;
-}
-
-.logos1,
-.logos2,
-.logos3,
-.logos4 {
-  font-size: 210%;
-}
-
-.logos1:hover,
-.logos2:hover,
-.logos3:hover,
-.logos4:hover {
-  font-size: 180%;
-}
 
 .btn_whats {
   position: fixed;
@@ -195,3 +144,4 @@ footer {
   text-decoration: none;
   line-height: 1.5;
 }
+
