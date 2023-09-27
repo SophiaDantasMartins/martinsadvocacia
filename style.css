@@ -69,7 +69,7 @@ ul {
   position: absolute;
   top: 50%;
   /* Posiciona o texto no centro verticalmente */
-  left: 20%;
+  left: 40%;
   /* Posiciona o texto no centro horizontalmente */
   transform: translate(-50%, -50%);
   /* Centraliza o texto exatamente no meio */
