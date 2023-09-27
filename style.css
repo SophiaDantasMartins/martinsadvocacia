@@ -52,7 +52,7 @@ ul {
 
 .imagemcomtexto {
   position: relative;
-  text-align: center;
+
 
 }
 
@@ -67,14 +67,18 @@ ul {
 
 .text {
   position: absolute;
+  width: 400px;
   top: 50%;
   /* Posiciona o texto no centro verticalmente */
-  left: 40%;
+  left: 25%;
   /* Posiciona o texto no centro horizontalmente */
   transform: translate(-50%, -50%);
   /* Centraliza o texto exatamente no meio */
-  font-size: 24px;
+  font-size: 32px;
   color: white;
+  text-align: center;
+  line-height: 2;
+  font-family: 'Barlow', sans-serif;
 }
 
 
