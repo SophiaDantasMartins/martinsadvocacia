@@ -137,15 +137,25 @@ footer {
   position: fixed;
   width: 200px;
   padding: 10px;
-  top: 20px;
+  top: 57px;
   right: 40px;
-  background-color: #c18824;
-  color: #FFF;
+  background-color: #41db41;
+  color: #ffffff;
   border-radius: 30px;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   z-index: 1000;
   text-decoration: none;
   line-height: 1.5;
 }
 
+#contato h3{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+
+#contato h2, a{
+  font-family: 'Barlow', sans-serif;
+  text-decoration: none;
+  font-size: x-large;
+}
