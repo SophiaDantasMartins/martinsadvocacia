@@ -22,6 +22,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -32,207 +34,233 @@
 
 
 
-  <header>
-    <nav class="navbar navbar-expand-lg colornavbar fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="../logo/logNav.png" alt="" width="300px"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html#about">Escritório</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Áreas de Atuação
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/areas_atuacao/criminal.html">Criminal</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="/areas_atuacao/transito.html">Trânsito</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/areas_atuacao/news.html">Publicações</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contato">Contato</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html#faq">Perguntas Frequentes</a>
-            </li>
-          </ul>
+    <!--Inicio do cabeçalho-->
+    <header>
+      <!--Inicio do navbar-->
+      <nav class="navbar navbar-expand-lg fixed-top colornavbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html#home"><img src="../logo/logNav.png" alt="" width="300px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#about">Escritório</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Áreas de Atuação
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="criminal.html">Criminal</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="transito.html">Trânsito</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">Publicações</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">Perguntas Frequentes</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
+        <!--Telefone para ligar-->
+        <a href="tel:+5513997531436" class="btn_precisaAjuda" target="_blank">
+          <i class="fa-solid fa-phone-volume" style="color: #000000;"></i>&nbsp;
+          (13) 99753-1436
+        </a>
+  
+       
+      </nav>
+      
+    </header>
+    <!--Fim do cabeçalho-->
 
   <main>
     <section id="transito">
-      <h3 class="titulo">Transito</h3>
+      <h3 class="titulo">Trânsito</h3>
       <br>
-      <p>
-      <ol class="explanacao">
-        "Contando com uma equipe altamente capacitada e sempre atualizada, nosso escritório se destaca em diversas áreas
-        do direito relacionadas ao trânsito, incluindo:
-
-        <li> **Indicação de Condutor:**
-          <br>
-          - Tomamos medidas legais para identificar o real condutor em casos de infrações de trânsito quando o
+      <p  class="explanacao">Contando com uma equipe altamente capacitada e sempre atualizada, nosso escritório se destaca em diversas áreas
+        do direito relacionadas ao trânsito, incluindo:</p>
+     
+        <p class="explanacao"><strong>Indicação de Condutor:</strong></p>
+          <ul class="explanacao"> 
+          <li>Tomamos medidas legais para identificar o real condutor em casos de infrações de trânsito quando o
           proprietário perdeu o prazo estipulado na notificação da multa.
         </li>
-        <br><br>
-        <li> **Multas de Trânsito:**
-          <br>
-          - Oferecemos serviços de anulação de multas de trânsito.
-          <br>
-          - Apresentamos recursos em todas as instâncias contra multas de trânsito injustas.
-        </li>
-        <br><br>
-        <li> **Lei Seca:**
-          <br>
-          - Defendemos condutores autuados sob as leis relacionadas à Lei Seca, tanto perante órgãos administrativos
-          quanto no âmbito judicial.
-        </li>
-        <br>
-        <li> **Veículo Apreendido:**
-          <br>
-          - Atuamos judicialmente para garantir a liberação de veículos que foram indevidamente apreendidos.
-        </li>
-        <br><br>
-        <li>. **Do Direito de Dirigir:**
-          <br>
-          - Prestamos serviços de defesa em procedimentos de suspensão e cassação do direito de dirigir, visando evitar
-          a perda desse direito para os condutores."
-          <br>
-          Espero que esta versão reescrita atenda às suas necessidades. Se tiver alguma outra solicitação ou precisar de
-          mais informações, por favor, me avise.
-        </li>
-      </ol>
-</p>
+       </ul>
+        <p class="explanacao"><strong>Multas de Trânsito:</strong> </p>
+        <ul class="explanacao">
+          <li> Oferecemos serviços de anulação de multas de trânsito.</li>
+         <li> Apresentamos recursos em todas as instâncias contra multas de trânsito injustas.</li>
+        </ul>
+        
+       <p class="explanacao"><strong>Lei Seca:</strong></p>
+       <ul class="explanacao">
+         <li>Defendemos condutores autuados sob as leis relacionadas à Lei Seca, tanto perante órgãos administrativos
+          quanto no âmbito judicial.</li>
+       </ul>
+        
+     
+        <p class="explanacao"> <strong>Veículo Apreendido:</strong></p>
+          <ul class="explanacao">
+            <li>Atuamos judicialmente para garantir a liberação de veículos que foram indevidamente apreendidos.</li>
+          </ul>
+        
+          
+        <p class="explanacao"><strong>Do Direito de Dirigir:</strong>
+          
+          <ul class="explanacao">
+            <li>Prestamos serviços de defesa em procedimentos de suspensão e cassação do direito de dirigir, visando evitar
+          a perda desse direito para os condutores."</li>
+          </ul>
+          
 
-
-<details>
-  <summary>O que devo fazer se receber uma multa de trânsito?</summary>
+<br><br>
+<h3 class="titulo">Dúvidas Frequentes</h3>
+<details class="explanacao">
+  <summary><strong>O que devo fazer se receber uma multa de trânsito?</strong></summary>
   <p>Orientação sobre os passos a seguir ao receber uma multa de trânsito, incluindo contestação ou pagamento.</p>
 </details>
 
-<details>
-  <summary>Como posso recorrer de uma multa de trânsito?</summary>
+<details class="explanacao">
+  <summary><strong>Como posso recorrer de uma multa de trânsito?</strong></summary>
   <p>Informações sobre os processos de contestação e recursos disponíveis para contestar multas de trânsito.</p>
 </details>
 
-<details>
-  <summary>Quais são as possíveis penalidades para uma infração de trânsito?</summary>
+<details class="explanacao">
+  <summary><strong>Quais são as possíveis penalidades para uma infração de trânsito?</strong> </summary>
   <p>Explicação sobre as consequências legais e financeiras de diferentes infrações de trânsito.</p>
 </details>
 
-<details>
-  <summary>Como posso recuperar minha carteira de motorista suspensa?</summary>
+<details class="explanacao">
+  <summary><strong>Como posso recuperar minha carteira de motorista suspensa?</strong></summary>
   <p>Orientação sobre os procedimentos para recuperar a carteira de motorista após uma suspensão.</p>
 </details>
 
-<details>
-  <summary>O que fazer em caso de acidente de trânsito?</summary>
+<details class="explanacao">
+  <summary><strong>O que fazer em caso de acidente de trânsito?</strong></summary>
   <p>Conselhos legais sobre como proceder em caso de acidente de trânsito, incluindo comunicação com as autoridades e outras partes envolvidas.</p>
 </details>
 
-<details>
-  <summary>Posso contestar uma pontuação na minha carteira de motorista?</summary>
+<details class="explanacao">
+  <summary><strong>Posso contestar uma pontuação na minha carteira de motorista?</strong></summary>
   <p>Informações sobre como contestar pontos em sua carteira de motorista e os processos envolvidos.</p>
 </details>
 
-<details>
-  <summary>Como posso resolver problemas relacionados a infrações de trânsito em outros estados?</summary>
+<details class="explanacao">
+  <summary><strong>Como posso resolver problemas relacionados a infrações de trânsito em outros estados?</strong></summary>
   <p>Diretrizes sobre como lidar com multas e infrações de trânsito que ocorrem em estados diferentes.</p>
 </details>
 
-<details>
-  <summary>Posso obter uma redução da pena ou da multa?</summary>
+<details class="explanacao">
+  <summary><strong>Posso obter uma redução da pena ou da multa?</strong></summary>
   <p>Discussão sobre as possibilidades de negociação de penas ou multas relacionadas a infrações de trânsito.</p>
 </details>
 
-<details>
-  <summary>Qual é a diferença entre infração e contravenção de trânsito?</summary>
+<details class="explanacao">
+  <summary><strong>Qual é a diferença entre infração e contravenção de trânsito?</strong></summary>
   <p>Explicação sobre as diferenças legais entre infrações e contravenções de trânsito.</p>
 </details>
 
-<details>
-  <summary>Como um advogado de trânsito pode me ajudar?</summary>
+<details class="explanacao">
+  <summary><strong>Como um advogado de trânsito pode me ajudar?</strong></summary>
   <p>Esclarecimento sobre o papel de um advogado de trânsito e como eles podem auxiliar na resolução de questões legais de trânsito.</p>
 </details>
 
     </section>
   </main>
 
+ <!--Início do rodapé-->
+ <footer>
 
-  <footer>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.3656908835956!2d-46.242856525588834!3d-23.982860377210926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d1ffd7aab59639%3A0x95a8a54b222e4afc!2sR.%20Ciro%20Alves%2C%20341%20-%20Jardim%20Tres%20Marias%2C%20Guaruj%C3%A1%20-%20SP%2C%2011440-340!5e0!3m2!1spt-BR!2sbr!4v1692830356049!5m2!1spt-BR!2sbr"
-      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <section id="contato" class="rodape">
-      <div class="container text-center">
-        <div class="row align-items-start">
-          <div class="col-md-3 coluna">
-            <h3 class="informacoes rodape">Meu telefone</h3>
+  <section id="contato">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-6 col-sm-4">
 
-            <h4 class="telefones rodape">(13)&nbsp;99753-1436</h4>
+          <h3>Contato</h3>
 
-            <a class="mail"
-              href="mailto:vn.solucoesjuridicas@gmail.com?subject=Gostaria de tirar dúvidas">vn.solucoesjuridicas@gmail.com
-            </a>
-          </div>
+          <h2>(13)&nbsp;99753-1436</h2>
 
-          <div class="col-md-4">
-            <h3 class="informacoes rodape">Siga-nos nas redes sociais</h3>
+          <a class="mail"
+            href="mailto:martinsrclaudio@gmail.com?subject=Gostaria de tirar dúvidas">martinsrclaudio@gmail.com
+          </a>
 
-            <a class="telefones logos1 rodape" target="_blank" href="https://wa.me/5513988096261">
-              <i class="fa-brands fa-whatsapp fa-xl"></i>
-            </a>
-            &nbsp;
-            <a class="telefones logos2 rodape" href="martins.adv2022@gmail.com?subject=Gostaria de tirar dúvidas"><i
-                class="fa-solid fa-envelope fa-xl"></i>
-            </a>
-            &nbsp;
-            <a target="_blank" class="telefones logos3 rodape"
-              href="https://www.facebook.com/people/VN-Advocacia/100079115196925/">
-              <i class="fa-brands fa-youtube" style="color: #ff0000;"></i>
-            </a>
-            &nbsp;
-            <a target="_blank" class="telefones logos4 rodape" href="https://www.instagram.com/vn.adv/">
-              <i class="fa-brands fa-instagram" style="color: #ffa200;"></i>
-            </a>
-          </div>
+
+        </div>
+        <div class="col-6 col-sm-4">
+          <h3>Siga-nos nas redes sociais</h3>
+
+          <a target="_blank" href="https://wa.me/5513997531436">
+            <i class="fa-brands fa-whatsapp fa-xl" style="color: #33ac23;"></i>
+          </a>
+          &nbsp;
+          <a class="telefones logos2 rodape" href="martins.adv2022@gmail.com?subject=Gostaria de tirar dúvidas"><i
+              class="fa-solid fa-envelope fa-xl"></i>
+          </a>
+          &nbsp;
+          <a target="_blank" class="telefones logos3 rodape"
+            href="https://www.facebook.com/people/VN-Advocacia/100079115196925/">
+            <i class="fa-brands fa-youtube fa-xl" style="color: #ff0000;"></i>
+          </a>
+          &nbsp;
+          <a target="_blank" class="telefones logos4 rodape" href="https://www.instagram.com/vn.adv/">
+            <i class="fa-brands fa-instagram fa-xl" style="color: #ffa200;"></i>
+          </a>
+
+        </div>
+
+        <div class="col-6 col-sm-4">
+          <form action="https://formspree.io/f/mvojvopw" method="POST">
+            <h3>Nos contate por email</h3>
+            <label>
+              Your email:
+              <input type="email" name="email">
+            </label>
+            <label>
+              Your message:
+              <textarea name="message"></textarea>
+            </label>
+            <br>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+          </form>
+
         </div>
       </div>
-    </section>
-
-    <a href="https://wa.me/5513988096261?text=Olá, tudo bem?" class="btn_whats" target="_blank">
-      <i style="margin-top:16px" class="fa-brands fa-whatsapp"></i>
-    </a>
-
-    <div id="footer_copyright">
-      <!--simbolo de copyrigth atráves desse código abaixo-->
-      Copyright
-      &#169
-      2023 Claudio Martins Advocacia| Powered by <a target="_blank" style="text-decoration: none; color:#402f5c"
-        href="https://amanatecnologia.com.br/">Amana Tecnologia</a>
     </div>
-  </footer>
-  <!--Fim do rodapé-->
+ </section>
+
+  <a href="https://wa.me/5513988096261?text=Olá, tudo bem?" class="btn_whats" target="_blank">
+    <i style="margin-top:16px" class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <div id="footer_copyright">
+    <!--simbolo de copyrigth atráves desse código abaixo-->
+    Copyright
+    &#169
+    2023 Claudio Martins Advocacia| Powered by <a target="_blank" style="text-decoration: none; color:#402f5c"
+      href="https://amanatecnologia.com.br/" class="responsabilidadeSite">Amana Tecnologia</a>
+  </div>
+</footer>
+<!--Fim do rodapé-->
 </body>
 
 </html>
