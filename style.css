@@ -163,27 +163,3 @@ footer {
 .responsabilidadeSite{
   font-size: medium;
 }
-
-/* Edição do Forms */
-fieldset {
-  border: 1px solid #000000;
-  padding: 10px;
-  background-color: #fff8ee;
-}
-
-.custom-fieldset {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.sendMail {
-  background-color: rgba(60, 49, 49);
-  color: #f0d6b6;
-  border-radius: 10px;
-  padding: 1% 2%;
-}
-
-.sendMail:hover {
-  background-color: #dcae6f;
-  color: black;
-}
