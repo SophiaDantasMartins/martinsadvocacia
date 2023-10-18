@@ -312,21 +312,42 @@
           </div>
 
           <div class="col-6 col-sm-4">
-            <form action="https://formspree.io/f/mvojvopw" method="POST">
-              <h3>Nos contate por email</h3>
-              <label>
-                Your email:
-                <input type="email" name="email">
-              </label>
-              <label>
-                Your message:
-                <textarea name="message"></textarea>
-              </label>
-              <br>
-              <!-- your other form fields go here -->
-              <button type="submit">Send</button>
-            </form>
 
+            <form class="row row-cols-lg-auto g-3 align-items-center" action="https://formspree.io/f/mvojvopw"
+            method="POST">
+            <fieldset class="rounded custom-fieldset">
+              <legend>Entre em contato</legend>
+              <br>
+              <div class="col-12">
+                <div class="input-group">
+                  <div class="input-group-text" style="background-color:#e7c292;">E-mail</div>
+                  <input style="background-color:#f0d6b6 ;" name="email" type="text" class="form-control"
+                    placeholder="name@example.com">
+                </div>
+              </div>
+
+              <br>
+
+              <div class="col-12">
+                <select name="subject" style="background-color:#e7c292;" class="form-select"
+                  id="inlineFormSelectPref">
+                  <option selected value="Criminal">Criminal</option>
+                  <option value="Trânsito">Trânsito</option>
+                </select>
+              </div>
+              <br>
+              <div class="col-auto">
+                <textarea style="background-color:#e7c292 ;" class="form-control" name="message" rows="3"
+                  placeholder="mensagem">
+          </textarea>
+              </div>
+
+              <br>
+
+              <!-- your other form fields go here -->
+              <button type="submit" class="sendMail">Enviar</button>
+            </fieldset>
+          </form>
           </div>
         </div>
       </div>
