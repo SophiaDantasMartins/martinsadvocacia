@@ -196,6 +196,15 @@ footer {
 
 
 .sendMail{
+background-color:rgb(131, 182, 135);
+border-style:solid;
+padding: 5px;
+border-radius:60px;
+border-color:rgb(74, 109, 77);
+color: white;
+}
 
-  /*aqui Sophia*/
+.sendMail:hover{
+  background-color: #20b356;
+
 }
