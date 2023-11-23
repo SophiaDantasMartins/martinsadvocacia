@@ -2,7 +2,7 @@
 
 :root {
     --cor-de-fundo: brown;
-    --cor-da-fonte: rgb(0, 180, 216);
+    --cor-da-fonte: black;
     --fonte-da-letra: 'Barlow', sans-serif;
     --fonte-copyright: black;
 }
@@ -42,6 +42,10 @@ main {
     margin: auto;
     word-spacing: 1vw;
     line-height: 20vh;
+}
+
+.clique{
+    background-color: #34a00d;
 }
 
 footer {
