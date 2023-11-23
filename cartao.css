@@ -1,0 +1,236 @@
+/* Variáveis das cores principais */
+
+:root {
+    --cor-de-fundo: brown;
+    --cor-da-fonte: rgb(0, 180, 216);
+    --fonte-da-letra: 'Barlow', sans-serif;
+    --fonte-copyright: black;
+}
+
+main {
+    margin-top: 7%;
+}
+
+.fundo {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-da-fonte);
+    font-family: var(--fonte-da-letra);
+}
+
+#logo {
+    float: left;
+    width: 40%;
+    margin-left: auto;
+    margin-right: 12%;
+    margin-top: 5%;
+}
+
+
+.conjunto {
+    display: block;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.conjunto a {
+    color: var(--cor-da-fonte);
+}
+
+.icones {
+    font-size: 10vh;
+    text-decoration: none;
+    margin: auto;
+    word-spacing: 1vw;
+    line-height: 20vh;
+}
+
+footer {
+    text-align: center;
+    color: var(--cor-da-fonte);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+/*Início áreas de atuação*/
+
+#logoAtuacao {
+    float: left;
+    width: 40%;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.atuacao {
+    display: flex;
+}
+
+.areaAtuacao {
+    text-decoration: none;
+    color: var(--cor-da-fonte);
+    font-size: 2.3vw;
+    padding: 2%;
+    margin-top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.areaAtuacao a {
+    text-decoration: none;
+    color: var(--fonte-da-letra);
+}
+
+.img-titulo {
+    /* width: 70%; */
+    /* display: block; */
+    margin-left: 10%;
+}
+
+/* Botão voltar */
+button.botao-voltar {
+    background-color: #4ec124;
+    border-color: #7f7674;
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+    padding: 5px;
+}
+
+#link-btn-atuacao {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Fim do Botão voltar */
+/*Fim áreas de atuação*/
+
+@media (max-width: 992px) {
+
+    .fundo {
+        background-color: var(--cor-de-fundo);
+        color: var(--cor-da-fonte);
+        margin: auto;
+        text-align: center;
+    }
+
+
+    /* .atuacao-titulo {
+      margin-left: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+    } */
+    /*   
+    .img-titulo {
+      margin-left: 150px;
+      display: block;
+    }
+   */
+    .titulo {
+        font-family: var(--fonte-da-letra);
+        color: var(--cor-da-fonte);
+        font-size: 2em;
+        margin-bottom: 12%;
+        visibility: visible;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* logoDisplay agora é um id
+    #logoDisplay {
+      border: solid 1px rgb(0, 0, 0);
+      left: 0;
+      display: block;
+      align-items: center;
+      margin: auto;
+      height: 25vh;
+    }
+   */
+    /* logoDisplay agora é um id */
+    #logo {
+        width: 100%;
+    }
+
+    .conjunto {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icones {
+        font-size: 5vh;
+        color: #c18824;
+        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+        word-spacing: 1vw;
+        line-height: 20vh;
+    }
+
+
+
+    /*Início áreas de atuação*/
+    #logoAtuacao {
+        float: none;
+        width: 100%;
+        margin-right: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .atuacao {
+        display: block;
+    }
+
+    .areaAtuacao {
+
+        background-color: #cf9b4b;
+        text-decoration: none;
+        font-family: var(--fonte-da-letra);
+        color: black;
+        font-size: xx-large;
+        padding: 3%;
+        margin-top: 10%;
+        border-style: solid;
+        border-color: green;
+        border-radius: 10px;
+        width: 100%;
+        display: block;
+    }
+
+    /* Botão voltar */
+    button.botao-voltar {
+        background-color: #c18824;
+        border-color: #7f7674;
+        position: fixed;
+        bottom: 80px;
+        right: 10px;
+        text-align: center;
+        font-size: 20px;
+        box-shadow: 1px 1px 2px #888;
+        z-index: 1000;
+    }
+
+    #link-btn-atuacao {
+        text-decoration: none;
+        color: #110808;
+        width: 100%;
+    }
+
+    .areaAtuacao a {
+        color: black;
+    }
+
+    .img-titulo {
+        /* width: 70%; */
+        /* display: block; */
+        margin:auto;
+    }
+}
