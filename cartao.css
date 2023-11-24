@@ -1,7 +1,7 @@
 /* Variáveis das cores principais */
 
 :root {
-    --cor-de-fundo: brown;
+    --cor-de-fundo: #fc5858;
     --cor-da-fonte: black;
     --fonte-da-letra: 'Barlow', sans-serif;
     --fonte-copyright: black;
@@ -46,13 +46,13 @@ main {
 }
 
 .clique{
-    background-color: #34a00d;
+    background-color: #425c29;
 }
 
 footer {
     position: absolute;
 	text-align: center;
-	color: white;
+	color: #f7c64a;
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
@@ -96,8 +96,8 @@ footer {
 
 /* Botão voltar */
 button.botao-voltar {
-    background-color: #4ec124;
-    border-color: #7f7674;
+    background-color: #425c29;
+    border-color: #f7c64a;
     position: fixed;
     bottom: 60px;
     right: 10px;
@@ -110,7 +110,7 @@ button.botao-voltar {
 
 #link-btn-atuacao {
     text-decoration: none;
-    color: #000000;
+    color: #f7c64a;
 }
 
 /* Fim do Botão voltar */
@@ -208,7 +208,7 @@ button.botao-voltar {
 
     /* Botão voltar */
     button.botao-voltar {
-        background-color: #c18824;
+        background-color: #43c124;
         border-color: #7f7674;
         position: fixed;
         bottom: 80px;
@@ -238,4 +238,48 @@ button.botao-voltar {
 
 @media (max-width: 992px) {
     
+}
+
+#whatsapp {
+    color:white ;
+}
+
+#email {
+    color: #2e72c9;
+}
+
+#facebook {
+    color: blue;
+}
+
+#instagram {
+    color: #edc147;
+}
+
+#mapa {
+    color: #2c346e;
+}
+
+#telefone {
+    color:#354a8c;
+}
+
+#balança {
+    color: #daa520;
+}
+
+#criminal {
+    color: #696b7a;
+}
+
+#letracriminal {
+    color: white;
+}
+
+#transito{
+    color: #ffe570;
+}
+
+#letratransito {
+    color: white;
 }
