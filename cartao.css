@@ -9,6 +9,7 @@
 
 main {
     margin-top: 7%;
+    margin-bottom: 7%;
 }
 
 .fundo {
@@ -49,12 +50,14 @@ main {
 }
 
 footer {
-    text-align: center;
-    color: var(--cor-da-fonte);
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-}
+    position: absolute;
+	text-align: center;
+	color: white;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+    display: contents;
+ }
 
 /*Início áreas de atuação*/
 
@@ -163,19 +166,14 @@ button.botao-voltar {
     }
 
     .conjunto {
-        display: block;
+        display:contents;
         align-items: center;
         text-align: center;
     }
 
     .icones {
-        font-size: 5vh;
-        color: #c18824;
-        text-decoration: none;
-        margin-left: auto;
-        margin-right: auto;
-        word-spacing: 1vw;
-        line-height: 20vh;
+        font-size: 8.5vw;
+
     }
 
 
@@ -194,7 +192,6 @@ button.botao-voltar {
     }
 
     .areaAtuacao {
-
         background-color: #cf9b4b;
         text-decoration: none;
         font-family: var(--fonte-da-letra);
@@ -237,4 +234,8 @@ button.botao-voltar {
         /* display: block; */
         margin:auto;
     }
+}
+
+@media (max-width: 992px) {
+    
 }
