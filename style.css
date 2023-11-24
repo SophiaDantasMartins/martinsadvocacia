@@ -65,13 +65,13 @@ footer {
 }
 
 .imagemcomtexto {
-  position: relative;
+  position: relative; 
+  background-image: url(/imagens/martelo.png);
+  background-size: cover;
+  width: auto;
+  height: 80vh;
 }
 
-.imagemcomtexto img {
-  width: 100%;
-  height: 70vh;
-}
 
 .text {
   position: absolute;
@@ -208,3 +208,14 @@ font-size: x-large;
   font-size: medium;
 }
 /* FIM SESSÃO COPYRIGHT */
+
+
+@media (max-width:992px) {
+  .imagemcomtexto {
+    position: relative; 
+    background-image: url(/imagens/img_frase.png);
+    background-size: cover;
+    width: auto;
+    height: 80vh;
+  }
+}
