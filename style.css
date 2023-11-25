@@ -17,7 +17,7 @@ footer {
 }
 
 .titulo {
-  font-family: 'Oswald', sans-serif;
+ font-weight: bolder;
   font-size: 3em;
 }
 
@@ -62,9 +62,9 @@ footer {
 
 /* INICIO DO SOBRE NOS */
 .explanacao {
-  font-family: 'Barlow', sans-serif;
+ 
   text-align: justify;
-  font-size: larger;
+  font-size: x-large;
   line-height: 2;
 }
 
@@ -90,7 +90,6 @@ footer {
   color: white;
   text-align: center;
   line-height: 2;
-  font-family: 'Barlow', sans-serif;
 }
 /* FIM DO SOBRE NOS */
 
@@ -113,14 +112,22 @@ footer {
   border-radius: 10px;
   border-color: #25d366;
 }
+
+.cardAtuacao{
+  width: 18rem; 
+  border: solid 3px green; 
+  
+
+}
+
 /* FIM DA AREA DE ATUAÇÃO */
 
 /* INICIO DAS DUVIDAS FREQUENTES EM CAROUSEL */
 .faq{
   text-align: right;
-  float:inline-end; 
-  margin-left: 12%;
+  margin-left: 10%;
   font-size: x-large;
+  transform: translate(5%, 10%);
 }
 /* FIM DAS DUVIDAS FREQUENTES EM CAROUSEL */
 
@@ -222,6 +229,10 @@ font-size: x-large;
 /* FIM SESSÃO COPYRIGHT */
 
 
+@media (min-width:756px) and (max-width:770px){
+
+}
+
 @media (max-width:992px) {
   .imagemcomtexto {
     position: relative; 
@@ -245,7 +256,6 @@ font-size: x-large;
     color: black;
     text-align: center;
     line-height: 2;
-    font-family: 'Barlow', sans-serif;
     font-weight: bolder;
   }
 
@@ -314,4 +324,73 @@ font-size: x-large;
   display: none;
 }
 /* FIM BOTOES ADICIONAIS - TELEFONE E WHATSAPP */
+}
+
+@media (min-width:993px) and (max-width:1060px){
+ /* INICIO BOTOES ADICIONAIS - TELEFONE E WHATSAPP */
+ .btn_whats {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+
+.btn_help {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+  display: block;
+  text-decoration: none;
+}
+
+.phone{
+  margin-top: 28%;
+  margin-left: 5%;
+}
+
+.btn_precisaAjuda {
+  position: fixed;
+  width: 200px;
+  padding: 10px;
+  top: 57px;
+  right: 40px;
+  background-color: #25d366;
+  color: #000000;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 1.2em;
+  z-index: 1000;
+  text-decoration: none;
+  line-height: 1.5;
+  display: none;
+}
+/* FIM BOTOES ADICIONAIS - TELEFONE E WHATSAPP */
+}
+
+@media (max-width:354px){
+  .imagemcomtexto {
+    position: relative; 
+    background-image: url(/imagens/img_frase.png);
+    background-size: cover;
+    width: 90vw;
+    height: 80vh;
+    border-radius: 5px;
+  }
 }
