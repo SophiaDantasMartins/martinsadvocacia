@@ -7,15 +7,19 @@
     --fonte-copyright: black;
 }
 
+
 main {
     margin-top: 7%;
     margin-bottom: 7%;
+    font-size: 6vw;
+
 }
 
 .fundo {
     background-color: var(--cor-de-fundo);
     color: var(--cor-da-fonte);
     font-family: var(--fonte-da-letra);
+
 }
 
 #logo {
@@ -30,7 +34,6 @@ main {
 .conjunto {
     display: block;
     align-items: center;
-    margin-top: 5%;
 }
 
 .conjunto a {
@@ -38,11 +41,53 @@ main {
 }
 
 .icones {
-    font-size: 10vh;
+    font-size: 1em;
     text-decoration: none;
     margin: auto;
-    word-spacing: 1vw;
-    line-height: 20vh;
+}
+
+#whatsapp {
+    color:white ;
+}
+
+#email {
+    color: #2e72c9;
+}
+
+#linkedin {
+    color: blue;
+}
+
+#instagram {
+    color: #edc147;
+}
+
+#mapa {
+    color: #2c346e;
+}
+
+#telefone {
+    color:#354a8c;
+}
+
+#balança {
+    color: #daa520;
+}
+
+#criminal {
+    color: #696b7a;
+}
+
+#letracriminal {
+    color: white;
+}
+
+#transito{
+    color: #f7c64a;
+}
+
+#letratransito {
+    color: white;
 }
 
 .clique{
@@ -89,8 +134,6 @@ footer {
 }
 
 .img-titulo {
-    /* width: 70%; */
-    /* display: block; */
     margin-left: 10%;
 }
 
@@ -113,72 +156,27 @@ button.botao-voltar {
     color: #f7c64a;
 }
 
-/* Fim do Botão voltar */
-/*Fim áreas de atuação*/
+
 
 @media (max-width: 992px) {
-
-    .fundo {
-        background-color: var(--cor-de-fundo);
-        color: var(--cor-da-fonte);
-        margin: auto;
+    .fundo{
         text-align: center;
     }
 
-
-    /* .atuacao-titulo {
-      margin-left: 150px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      flex-direction: column;
-    } */
-    /*   
-    .img-titulo {
-      margin-left: 150px;
-      display: block;
-    }
-   */
-    .titulo {
-        font-family: var(--fonte-da-letra);
-        color: var(--cor-da-fonte);
-        font-size: 2em;
-        margin-bottom: 12%;
-        visibility: visible;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    /* logoDisplay agora é um id
-    #logoDisplay {
-      border: solid 1px rgb(0, 0, 0);
-      left: 0;
-      display: block;
-      align-items: center;
-      margin: auto;
-      height: 25vh;
-    }
-   */
-    /* logoDisplay agora é um id */
     #logo {
         width: 100%;
     }
 
     .conjunto {
-        display:contents;
-        align-items: center;
-        text-align: center;
+        margin-top: 55%;
+        margin-bottom: 30%;
     }
 
     .icones {
-        font-size: 8.5vw;
+        font-size: 2.1em;
 
     }
 
-
-
-    /*Início áreas de atuação*/
     #logoAtuacao {
         float: none;
         width: 100%;
@@ -192,18 +190,24 @@ button.botao-voltar {
     }
 
     .areaAtuacao {
-        background-color: #cf9b4b;
+        background-color: white;
+       
         text-decoration: none;
         font-family: var(--fonte-da-letra);
-        color: black;
         font-size: xx-large;
         padding: 3%;
         margin-top: 10%;
-        border-style: solid;
-        border-color: green;
         border-radius: 10px;
+        border-color: #7f7674;
         width: 100%;
         display: block;
+        box-shadow: 1px 1px 2px #888;
+       
+      
+    }
+
+    .areaAtuacao a{
+        color:black;
     }
 
     /* Botão voltar */
@@ -225,61 +229,38 @@ button.botao-voltar {
         width: 100%;
     }
 
-    .areaAtuacao a {
+    #letratransito {
+        color: black;
+    }
+
+    #letracriminal {
         color: black;
     }
 
     .img-titulo {
-        /* width: 70%; */
-        /* display: block; */
+
         margin:auto;
     }
 }
 
-@media (max-width: 992px) {
-    
+@media (min-width: 878px) and (max-width: 1199px) {
+    .icones {
+        font-size: 2em;
+
+    }
 }
 
-#whatsapp {
-    color:white ;
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .icones {
+        font-size: 1em;
+
+    }
+
+    .conjunto {
+        margin-top: -5%;
+        margin-bottom: 15%;
+    }
 }
 
-#email {
-    color: #2e72c9;
-}
-
-#facebook {
-    color: blue;
-}
-
-#instagram {
-    color: #edc147;
-}
-
-#mapa {
-    color: #2c346e;
-}
-
-#telefone {
-    color:#354a8c;
-}
-
-#balança {
-    color: #daa520;
-}
-
-#criminal {
-    color: #696b7a;
-}
-
-#letracriminal {
-    color: white;
-}
-
-#transito{
-    color: #ffe570;
-}
-
-#letratransito {
-    color: white;
-}

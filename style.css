@@ -8,7 +8,9 @@ body {
 main {
   margin-top: 12%;
 }
-.contents{
+
+/* serve para não esconder o título das áreas de atuação */
+.contents {
   height: 2vw;
 }
 
@@ -21,7 +23,7 @@ footer {
 }
 
 .titulo {
- font-weight: bolder;
+  font-weight: bolder;
   font-size: 2em;
 }
 
@@ -30,6 +32,7 @@ footer {
   /* ESSE MARGIN TOP AJUDA A NÃO ESCONDER O TITULO */
   margin-top: 8%;
 }
+
 /* FIM configurações gerais */
 
 
@@ -46,9 +49,10 @@ footer {
   font-size: 1em;
 }
 
-.colornavbar img{
+.colornavbar img {
   width: 280px;
 }
+
 /* FIM Navbar */
 
 
@@ -61,19 +65,20 @@ footer {
 .imagehome {
   filter: grayscale(100%);
 }
+
 /* FIM CAROUSEL HOME */
 
 
 /* INICIO DO SOBRE NOS */
 .explanacao {
- 
+
   text-align: justify;
   font-size: 1.2em;
   line-height: 2;
 }
 
 .imagemcomtexto {
-  position: relative; 
+  position: relative;
   background-image: url(/imagens/martelo.png);
   background-size: cover;
   width: auto;
@@ -95,6 +100,7 @@ footer {
   text-align: center;
   line-height: 2;
 }
+
 /* FIM DO SOBRE NOS */
 
 
@@ -117,25 +123,26 @@ footer {
   border-color: #25d366;
 }
 
-.cardAtuacao{
-  width: 18rem; 
-margin-top: 10%;
-margin-left: 16%;
- }
+.cardAtuacao {
+  width: 18rem;
+  margin-top: 10%;
+  margin-left: 16%;
+}
 
 /* FIM DA AREA DE ATUAÇÃO */
 
 /* INICIO DAS DUVIDAS FREQUENTES EM CAROUSEL */
-.faq{
+.faq {
   text-align: right;
   margin-left: 10%;
   font-size: 1em;
   transform: translate(5%, 10%);
 }
+
 /* FIM DAS DUVIDAS FREQUENTES EM CAROUSEL */
 
 /* INICIO RODAPÉ */
-.numeroTelefone:hover{
+.numeroTelefone:hover {
   font-weight: bold;
 }
 
@@ -151,12 +158,15 @@ margin-left: 16%;
   font-size: 1.3em;
 }
 
-.iconeRedeSocial{
-text-decoration: none;
-font-size: 2.2em;
+.iconeRedeSocial {
+  text-decoration: none;
+  font-size: 2.2em;
 }
 
-.icone1:hover, .icone2:hover, .icone3:hover, .icone4:hover{
+.icone1:hover,
+.icone2:hover,
+.icone3:hover,
+.icone4:hover {
   font-size: 2em;
 }
 
@@ -172,6 +182,7 @@ font-size: 2.2em;
 .sendMail:hover {
   background-color: #20b356;
 }
+
 /* FIM RODAPÉ */
 
 
@@ -222,6 +233,7 @@ font-size: 2.2em;
   text-decoration: none;
   line-height: 1.5;
 }
+
 /* FIM BOTOES ADICIONAIS - TELEFONE E WHATSAPP */
 
 
@@ -229,29 +241,33 @@ font-size: 2.2em;
 .responsabilidadeSite {
   font-size: medium;
 }
+
 /* FIM SESSÃO COPYRIGHT */
 
 
-@media (max-width:350px){
+@media (max-width:350px) {
   .text {
-    font-size:7em;
+    font-size: 7em;
   }
 }
 
-@media (max-width:576px){
-  .contents{
-  height: 20vw;
+@media (max-width:576px) {
+  .contents {
+    height: 20vw;
+  }
 }
-}
 
 
 
-@media (min-width:576px) and (max-width:993px){
-  .mail{
+@media (min-width:576px) and (max-width:993px) {
+  .mail {
     font-size: 0.6em;
   }
 
-  .icone1, .icone2, .icone3, .icone4{
+  .icone1,
+  .icone2,
+  .icone3,
+  .icone4 {
     font-size: 0.4em;
   }
 }
@@ -265,16 +281,17 @@ font-size: 2.2em;
   }
 
   /* INICIO DAS DUVIDAS FREQUENTES EM CAROUSEL */
-#carouselExampleAutoplaying{
-  display: none;
-}
-/* FIM DAS DUVIDAS FREQUENTES EM CAROUSEL */
+  #carouselExampleAutoplaying {
+    display: none;
+  }
+
+  /* FIM DAS DUVIDAS FREQUENTES EM CAROUSEL */
 
   .imagemcomtexto {
-    position:relative;
+    position: relative;
     background-image: url(/imagens/img_frase.png);
-    background-size:cover;
-    background-position:right;
+    background-size: cover;
+    background-position: right;
     width: 80%;
     height: 100vw;
     border-radius: 5px;
@@ -285,12 +302,8 @@ font-size: 2.2em;
     position: absolute;
     width: 57%;
     top: 50%;
-    /* Posiciona o texto no centro verticalmente */
     left: 37%;
-    /* Posiciona o texto no centro horizontalmente */
-    /* transform: translate(-50%, -50%); */
-    /* Centraliza o texto exatamente no meio */
-    font-size:1.2em;
+    font-size: 1.2em;
     color: black;
     text-align: center;
     line-height: 1.5;
@@ -299,163 +312,170 @@ font-size: 2.2em;
 
   .imagemDivisao {
     width: 30%;
-    /* ESSE MARGIN TOP AJUDA A NÃO ESCONDER O TITULO */
     margin-top: 8%;
   }
 
-  .colornavbar img{
+  .colornavbar img {
     width: 180px;
   }
 
-  .cardAtuacao{
-    width: 18rem; 
-  margin-top: 10%;
-  margin: auto;
-   }
-
-   .cardtransito{
+  .cardAtuacao {
+    width: 18rem;
     margin-top: 10%;
-   }
-  /* INICIO BOTOES ADICIONAIS - TELEFONE E WHATSAPP */
-.btn_whats {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #25d366;
-  color: #FFF;
-  border-radius: 30px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 1px 1px 2px #888;
-  z-index: 1000;
-}
-
-.btn_help {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #25d366;
-  color: #FFF;
-  border-radius: 30px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 1px 1px 2px #888;
-  z-index: 1000;
-  display: block;
-  text-decoration: none;
-}
-
-.phone{
-  margin-top: 28%;
-  margin-left: 5%;
-}
-
-.btn_precisaAjuda {
-  position: fixed;
-  width: 200px;
-  padding: 10px;
-  top: 57px;
-  right: 40px;
-  background-color: #25d366;
-  color: #000000;
-  border-radius: 30px;
-  text-align: center;
-  font-size: 1.2em;
-  z-index: 1000;
-  text-decoration: none;
-  line-height: 1.5;
-  display: none;
-}
-/* FIM BOTOES ADICIONAIS - TELEFONE E WHATSAPP */
-
-.iconeRedeSocial{
-  text-decoration: none;
-  font-size: 1.4em;
+    margin: auto;
   }
-  
-  .icone1:hover, .icone2:hover, .icone3:hover, .icone4:hover{
+
+  .cardtransito {
+    margin-top: 10%;
+  }
+
+  /* INICIO BOTOES ADICIONAIS - TELEFONE E WHATSAPP */
+  .btn_whats {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+  }
+
+  .btn_help {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+    display: block;
+    text-decoration: none;
+  }
+
+  .phone {
+    margin-top: 28%;
+    margin-left: 5%;
+  }
+
+  .btn_precisaAjuda {
+    position: fixed;
+    width: 200px;
+    padding: 10px;
+    top: 57px;
+    right: 40px;
+    background-color: #25d366;
+    color: #000000;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 1.2em;
+    z-index: 1000;
+    text-decoration: none;
+    line-height: 1.5;
+    display: none;
+  }
+
+  /* FIM BOTOES ADICIONAIS - TELEFONE E WHATSAPP */
+
+  .iconeRedeSocial {
+    text-decoration: none;
+    font-size: 1.4em;
+  }
+
+  .icone1:hover,
+  .icone2:hover,
+  .icone3:hover,
+  .icone4:hover {
     font-size: 1.2em;
   }
 
-  .numeroTelefone:hover{
+  .numeroTelefone:hover {
     font-weight: bold;
     font-size: 0.8em;
   }
 
-  .topico{
+  .topico {
     font-size: 1.4em;
   }
 }
 
-@media (min-width:993px) and (max-width:1060px){
- /* INICIO BOTOES ADICIONAIS - TELEFONE E WHATSAPP */
- .btn_whats {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #25d366;
-  color: #FFF;
-  border-radius: 30px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 1px 1px 2px #888;
-  z-index: 1000;
-}
+@media (min-width:993px) and (max-width:1060px) {
 
-.btn_help {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #25d366;
-  color: #FFF;
-  border-radius: 30px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 1px 1px 2px #888;
-  z-index: 1000;
-  display: block;
-  text-decoration: none;
-}
+  /* INICIO BOTOES ADICIONAIS - TELEFONE E WHATSAPP */
+  .btn_whats {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+  }
 
-.phone{
-  margin-top: 28%;
-  margin-left: 5%;
-}
+  .btn_help {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+    display: block;
+    text-decoration: none;
+  }
 
-.btn_precisaAjuda {
-  position: fixed;
-  width: 200px;
-  padding: 10px;
-  top: 57px;
-  right: 40px;
-  background-color: #25d366;
-  color: #000000;
-  border-radius: 30px;
-  text-align: center;
-  font-size: 1.2em;
-  z-index: 1000;
-  text-decoration: none;
-  line-height: 1.5;
-  display: none;
-}
-/* FIM BOTOES ADICIONAIS - TELEFONE E WHATSAPP */
+  .phone {
+    margin-top: 28%;
+    margin-left: 5%;
+  }
 
-/* INICIO DAS DUVIDAS FREQUENTES EM CAROUSEL */
-.faq{
-  font-size: 1em;
-  transform: translate(5%, 25%);
-}
+  .btn_precisaAjuda {
+    position: fixed;
+    width: 200px;
+    padding: 10px;
+    top: 57px;
+    right: 40px;
+    background-color: #25d366;
+    color: #000000;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 1.2em;
+    z-index: 1000;
+    text-decoration: none;
+    line-height: 1.5;
+    display: none;
+  }
 
-.faq h3{
-  font-size: 1.2em;
-}
-/* FIM DAS DUVIDAS FREQUENTES EM CAROUSEL */
+  /* FIM BOTOES ADICIONAIS - TELEFONE E WHATSAPP */
+
+  /* INICIO DAS DUVIDAS FREQUENTES EM CAROUSEL */
+  .faq {
+    font-size: 1em;
+    transform: translate(5%, 25%);
+  }
+
+  .faq h3 {
+    font-size: 1.2em;
+  }
+
+  /* FIM DAS DUVIDAS FREQUENTES EM CAROUSEL */
 }
