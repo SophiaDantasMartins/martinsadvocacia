@@ -2,10 +2,14 @@
 body {
   text-align: center;
   font-family: 'Barlow', sans-serif;
+  font-size: 1.4vw;
 }
 
 main {
   margin-top: 12%;
+}
+.contents{
+  height: 2vw;
 }
 
 footer {
@@ -18,7 +22,7 @@ footer {
 
 .titulo {
  font-weight: bolder;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .imagemDivisao {
@@ -39,7 +43,7 @@ footer {
 }
 
 .colornavbar ul li a {
-  font-size: x-large;
+  font-size: 1em;
 }
 
 .colornavbar img{
@@ -64,7 +68,7 @@ footer {
 .explanacao {
  
   text-align: justify;
-  font-size: x-large;
+  font-size: 1.2em;
   line-height: 2;
 }
 
@@ -86,7 +90,7 @@ footer {
   /* Posiciona o texto no centro horizontalmente */
   transform: translate(-50%, -50%);
   /* Centraliza o texto exatamente no meio */
-  font-size: 2em;
+  font-size: 1.4em;
   color: white;
   text-align: center;
   line-height: 2;
@@ -115,10 +119,9 @@ footer {
 
 .cardAtuacao{
   width: 18rem; 
-  border: solid 3px green; 
-  
-
-}
+margin-top: 10%;
+margin-left: 16%;
+ }
 
 /* FIM DA AREA DE ATUAÇÃO */
 
@@ -126,7 +129,7 @@ footer {
 .faq{
   text-align: right;
   margin-left: 10%;
-  font-size: x-large;
+  font-size: 1em;
   transform: translate(5%, 10%);
 }
 /* FIM DAS DUVIDAS FREQUENTES EM CAROUSEL */
@@ -140,21 +143,21 @@ footer {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
-  font-size: 1.5vw;
+  font-size: 1.2em;
 }
 
 .mail:hover {
   font-weight: bold;
-  font-size: 1.7vw;
+  font-size: 1.3em;
 }
 
 .iconeRedeSocial{
 text-decoration: none;
-font-size: x-large;
+font-size: 2.2em;
 }
 
 .icone1:hover, .icone2:hover, .icone3:hover, .icone4:hover{
-  font-size: large;
+  font-size: 2em;
 }
 
 .sendMail {
@@ -214,7 +217,7 @@ font-size: x-large;
   color: #000000;
   border-radius: 30px;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1em;
   z-index: 1000;
   text-decoration: none;
   line-height: 1.5;
@@ -229,33 +232,68 @@ font-size: x-large;
 /* FIM SESSÃO COPYRIGHT */
 
 
-@media (min-width:756px) and (max-width:770px){
+@media (max-width:350px){
+  .text {
+    font-size:7em;
+  }
+}
 
+@media (max-width:576px){
+  .contents{
+  height: 20vw;
+}
+}
+
+
+
+@media (min-width:576px) and (max-width:993px){
+  .mail{
+    font-size: 0.6em;
+  }
+
+  .icone1, .icone2, .icone3, .icone4{
+    font-size: 0.4em;
+  }
 }
 
 @media (max-width:992px) {
+  body {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 3.7vw;
+    font-weight: bold;
+  }
+
+  /* INICIO DAS DUVIDAS FREQUENTES EM CAROUSEL */
+#carouselExampleAutoplaying{
+  display: none;
+}
+/* FIM DAS DUVIDAS FREQUENTES EM CAROUSEL */
+
   .imagemcomtexto {
-    position: relative; 
+    position:relative;
     background-image: url(/imagens/img_frase.png);
-    background-size: cover;
-    width: 90vw;
-    height: 60vh;
+    background-size:cover;
+    background-position:right;
+    width: 80%;
+    height: 100vw;
     border-radius: 5px;
+    margin: auto;
   }
 
   .text {
     position: absolute;
-    width: 50vw;
+    width: 57%;
     top: 50%;
     /* Posiciona o texto no centro verticalmente */
     left: 37%;
     /* Posiciona o texto no centro horizontalmente */
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     /* Centraliza o texto exatamente no meio */
-    font-size: 1.2em;
+    font-size:1.2em;
     color: black;
     text-align: center;
-    line-height: 2;
+    line-height: 1.5;
     font-weight: bolder;
   }
 
@@ -269,6 +307,15 @@ font-size: x-large;
     width: 180px;
   }
 
+  .cardAtuacao{
+    width: 18rem; 
+  margin-top: 10%;
+  margin: auto;
+   }
+
+   .cardtransito{
+    margin-top: 10%;
+   }
   /* INICIO BOTOES ADICIONAIS - TELEFONE E WHATSAPP */
 .btn_whats {
   position: fixed;
@@ -324,6 +371,24 @@ font-size: x-large;
   display: none;
 }
 /* FIM BOTOES ADICIONAIS - TELEFONE E WHATSAPP */
+
+.iconeRedeSocial{
+  text-decoration: none;
+  font-size: 1.4em;
+  }
+  
+  .icone1:hover, .icone2:hover, .icone3:hover, .icone4:hover{
+    font-size: 1.2em;
+  }
+
+  .numeroTelefone:hover{
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+
+  .topico{
+    font-size: 1.4em;
+  }
 }
 
 @media (min-width:993px) and (max-width:1060px){
@@ -382,15 +447,15 @@ font-size: x-large;
   display: none;
 }
 /* FIM BOTOES ADICIONAIS - TELEFONE E WHATSAPP */
+
+/* INICIO DAS DUVIDAS FREQUENTES EM CAROUSEL */
+.faq{
+  font-size: 1em;
+  transform: translate(5%, 25%);
 }
 
-@media (max-width:354px){
-  .imagemcomtexto {
-    position: relative; 
-    background-image: url(/imagens/img_frase.png);
-    background-size: cover;
-    width: 90vw;
-    height: 80vh;
-    border-radius: 5px;
-  }
+.faq h3{
+  font-size: 1.2em;
+}
+/* FIM DAS DUVIDAS FREQUENTES EM CAROUSEL */
 }

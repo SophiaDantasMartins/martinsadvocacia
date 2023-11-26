@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
 <!--Inicio do setor invisível para o usuário-->
 
@@ -67,13 +67,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="news.html">Publicações</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="#contato">Contato</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#faq">Perguntas Frequentes</a>
               </li>
             </ul>
           </div>
@@ -92,6 +86,7 @@
 
   <main class="container">
     <section id="criminal">
+      <div class="contents"></div>
       <br>
       <h3 class="titulo">Criminal</h3>
       <br>
@@ -132,99 +127,122 @@
     </section>
   </main>
 
-   <!--Início do rodapé-->
-   <footer clas="container">
-
-    <section id="contato">
+  <!--Início do rodapé-->
+  <footer>
+    <img class="imagemDivisao" src="../logo/divisaoLogo.png" alt="Imagem de uma águia, dividindo as seções.">
+    <br><br>
+    <!--Início do CONTATO-->
+    <section id="contato" class="container-fluid">
+      <!--INICIO COLUNAS RESPONSIVAS-->
       <div class="container text-center">
         <div class="row">
-          <div class="col-6 col-sm-4">
 
-            <h3>Contato</h3>
+          <!--INICIO primeira coluna do rodapé-->
+          <div class="col-sm-4 col-md-4 col-lg-4">
 
-            <h2>(13)&nbsp;99753-1436</h2>
-
-            <a class="mail"
-              href="mailto:martinsrclaudio@gmail.com?subject=Gostaria de tirar dúvidas">martinsrclaudio@gmail.com
+            <h3><b>Contato</b></h3>
+            <br>
+            <h4 class="numeroTelefone">(13)&nbsp;99753-1436</h4>
+            <br>
+            <a class="mail" target="_blank"
+              href="mailto:martins.adv2022@gmail.com?subject=Gostaria de tirar dúvidas">martins.adv2022@gmail.com
             </a>
 
-
+            <br><br>
           </div>
-          <div class="col-6 col-sm-4">
-            <h3>Siga-nos nas redes sociais</h3>
+          <!--FIM primeira coluna do rodapé-->
 
-            <a target="_blank" href="https://wa.me/5513997531436">
-              <i class="fa-brands fa-whatsapp fa-xl" style="color: #33ac23;"></i>
+          <!--INICIO segunda coluna do rodapé-->
+          <div class="col-sm-4 col-md-4 col-lg-4">
+            <h3><b>Siga-nos nas redes sociais</b></h3>
+            <br>
+            <a class="iconeRedeSocial icone1" target="_blank" href="https://wa.me/5513997531436">
+              <i class="fa-brands fa-whatsapp" style="color: #33ac23;"></i>
             </a>
             &nbsp;
-            <a class="telefones logos2 rodape" href="martins.adv2022@gmail.com?subject=Gostaria de tirar dúvidas"><i
-                class="fa-solid fa-envelope fa-xl"></i>
+            <a class="iconeRedeSocial icone2" href="martins.adv2022@gmail.com?subject=Gostaria de tirar dúvidas"><i
+                class="fa-solid fa-envelope"></i>
             </a>
             &nbsp;
-            <a target="_blank" class="telefones logos3 rodape"
-              href="https://www.facebook.com/people/VN-Advocacia/100079115196925/">
-              <i class="fa-brands fa-youtube fa-xl" style="color: #ff0000;"></i>
+            <!--COLOCAR FACEBOOK DO MARTINS ADVOGACIA-->
+            <a target="_blank" class="iconeRedeSocial icone3" href="">
+              <i class="fa-brands fa-youtube" style="color: #ff0000;"></i>
             </a>
             &nbsp;
-            <a target="_blank" class="telefones logos4 rodape" href="https://www.instagram.com/vn.adv/">
-              <i class="fa-brands fa-instagram fa-xl" style="color: #ffa200;"></i>
+            <a target="_blank" class="iconeRedeSocial icone4" href="">
+              <i class="fa-brands fa-instagram" style="color: #ffa200;"></i>
             </a>
-
+            <br><br>
           </div>
+          <!--FIM segunda coluna do rodapé-->
 
-          <div class="col-6 col-sm-4">
-            <form class="row row-cols-lg-auto g-3 align-items-center" action="https://formspree.io/f/mvojvopw"
-            method="POST">
-            <fieldset class="rounded custom-fieldset">
-              <legend>Entre em contato</legend>
-              <br>
-              <div class="col-12">
+          <!--INICIO terceira coluna do rodapé-->
+          <div class="col-sm-4 col-md-4 col-lg-4">
+
+            <!--Início do Forms-->
+            <form class="align-items-center" action="https://formspree.io/f/mvojvopw" method="POST">
+              <fieldset class="rounded custom-fieldset">
+                <h3><b>Entre em contato</b></h3>
+                <br>
                 <div class="input-group">
                   <div class="input-group-text" style="background-color:#ff5656; color: white;">E-mail</div>
                   <input style="background-color:#fcadad ;" name="email" type="text" class="form-control"
                     placeholder="name@example.com">
                 </div>
-              </div>
-
-              <br>
-
-              <div class="col-12">
-                <select name="subject" style="background-color:#ff5656; color: white;" class="form-select"
+                <br>
+                <select name="subject" width="80%" style="background-color:#ff5656; color: white;" class="form-select"
                   id="inlineFormSelectPref">
                   <option selected value="Criminal">Criminal</option>
                   <option value="Trânsito">Trânsito</option>
                 </select>
-              </div>
-              <br>
-              <div class="col-auto">
+                <br>
                 <textarea style="background-color:#fcadad ;" class="form-control" name="message" rows="3"
                   placeholder="mensagem">
-          </textarea>
-              </div>
-
-              <br>
-
-              <!-- your other form fields go here -->
-              <button type="submit" class="sendMail">Enviar</button>
-              
-            </fieldset>
-          </form>
+                  </textarea>
+                <br>
+                <button type="submit" class="sendMail">Enviar</button>
+              </fieldset>
+            </form>
+            <!--Início do Forms-->
           </div>
+          <!--FIM terceira coluna do rodapé-->
+
         </div>
       </div>
-   </section>
+      <!--FIM COLUNAS RESPONSIVAS-->
 
-    <a href="https://wa.me/5513988096261?text=Olá, tudo bem?" class="btn_whats" target="_blank">
-      <i style="margin-top:16px" class="fa-brands fa-whatsapp"></i>
-    </a>
 
+      <br>
+      <br>
+
+
+      <!--INICIO BOTÃO WHATSAPP-->
+      <a href="https://wa.me/5513988096261?text=Olá, tudo bem?" class="btn_whats" target="_blank">
+        <i style="margin-top:16px" class="fa-brands fa-whatsapp"></i>
+      </a>
+      <!--FIM BOTÃO WHATSAPP-->
+
+      <!--INICIO BOTÃO LIGAR-->
+      <a href="tel:+5513997531436" class="btn_help" target="_blank">
+        <i class="fa-solid fa-phone-volume phone"></i>&nbsp;
+      </a>
+      <!--FIM BOTÃO LIGAR-->
+
+    </section>
+    <!--FIM do CONTATO-->
+
+
+
+    <!--INICIO COPYRIGHT-->
     <div id="footer_copyright">
       <!--simbolo de copyrigth atráves desse código abaixo-->
       Copyright
       &#169
-      2023 Claudio Martins Advocacia | Powered by <a target="_blank" style="text-decoration: none; color:#402f5c"
+      2023 Claudio Martins Advogacia | Powered by <a target="_blank" style="text-decoration: none; color:#402f5c"
         href="https://amanatecnologia.com.br/" class="responsabilidadeSite">Amana Tecnologia</a>
     </div>
+    <!--FIM COPYRIGHT-->
+
   </footer>
   <!--Fim do rodapé-->
 </body>
