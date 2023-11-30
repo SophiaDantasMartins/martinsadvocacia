@@ -101,7 +101,6 @@ footer {
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
-    display: contents;
  }
 
 /*Início áreas de atuação*/
@@ -240,6 +239,10 @@ button.botao-voltar {
     .img-titulo {
 
         margin:auto;
+    }
+
+    footer{
+        display:contents;
     }
 }
 
